@@ -1,7 +1,9 @@
+import java.util.Scanner;
+
 public class LibrarySystem {
     public static void main(String[] args) {
-        java.util.Scanner scanner = new java.util.Scanner(System.in);
-        
+        Scanner scanner = new Scanner(System.in);
+
         // Initial book information
         String bookTitle = " The Great Gatsby ";
         String userInput = "";

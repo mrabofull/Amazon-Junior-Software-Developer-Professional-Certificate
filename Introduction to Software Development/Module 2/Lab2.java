@@ -71,6 +71,9 @@ public class Main {
                     }
                     break;
                 case 5:
+                    isEngineOn = false;
+                    gear = "P";
+                    speed = 0;
                     System.out.println("Bye bye!");
                     break;
                 default:
